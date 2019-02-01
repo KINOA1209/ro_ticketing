@@ -1,0 +1,63 @@
+INSERT INTO `ro_ticketing`.`order`
+(`OrderDate`,
+`OrderTime`,
+`RequestDateTime`,
+`OrderStatusId`,
+`JobTypeId`,
+`CustomerId`,
+`RigLocationId`,
+`WellID`,
+`PointOfContactName`,
+`PointOfContactNumber`,
+`LoadOrigin`,
+`OrderDescription`,
+`IsEnabled`,
+`IsDeleted`)
+VALUES
+(
+'2018-08-09',
+'13:00:00',
+'2018-08-09 13:00:00',
+1,
+1,
+1,
+1,
+1,
+'John Doe',
+'999-999-9999',
+1,
+'order description',
+true,
+true);
+
+INSERT INTO `ro_ticketing`.`order`
+(`OrderDate`,
+`OrderTime`,
+`RequestDateTime`,
+`OrderStatusId`,
+`JobTypeId`,
+`CustomerId`,
+`RigLocationId`,
+`WellID`,
+`PointOfContactName`,
+`PointOfContactNumber`,
+`LoadOrigin`,
+`OrderDescription`,
+`IsEnabled`,
+`IsDeleted`)
+VALUES
+(
+'2018-08-09',
+'14:00:00',
+'2018-08-09 14:00:00',
+1,
+1,
+1,
+1,
+1,
+'Jane Doe',
+'988-988-9888',
+1,
+'order description 2',
+true,
+true);

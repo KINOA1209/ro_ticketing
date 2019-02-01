@@ -1,0 +1,1 @@
+SELECT CONCAT('INSERT INTO ro_ticketing.TRUCK (id,name) VALUE (',id,',''',name,''');') FROM ro_ticketing.TRUCKS;
